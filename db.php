@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
+$host = "100.81.84.27";
 $user = "root"; // เปลี่ยนตาม MySQL ของคุณ
-$pass = ""; // ถ้ามีรหัสผ่านให้ใส่
-$dbname = "back_office_pcn";
+$pass = "adminpcn"; // ถ้ามีรหัสผ่านให้ใส่
+$dbname = "backoffice";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
